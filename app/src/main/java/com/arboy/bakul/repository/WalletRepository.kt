@@ -1,4 +1,10 @@
 package com.arboy.bakul.repository
 
-class WalletRepository {
+import android.app.Application
+import com.arboy.bakul.database.WalletDao
+
+class WalletRepository (application: Application) {
+
+    private val walletDao: WalletDao
+
 }

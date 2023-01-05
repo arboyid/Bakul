@@ -1,6 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.Bakul" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
         <item name="windowActionModeOverlay">true</item>
         <item name="windowNoTitle">true</item>
         <!--        <item name="fontFamily">@font/app_font</item>-->
@@ -13,7 +14,7 @@
         <item name="android:buttonStyle">@style/ButtonStyle</item>
     </style>
 
-    <style name="Theme.Bakul.StatusBarCustom">
+    <style name="AppTheme.StatusBarCustom">
         <item name="android:statusBarColor">@color/blue_bg</item>
         <!-- <item name="fontFamily">@font/app_font</item>-->
         <item name="android:textViewStyle">@style/TextViewStyle</item>
@@ -23,7 +24,7 @@
         <item name="editTextStyle">@style/EditTextStyle</item>
     </style>
 
-    <style name="Theme.Bakul.StatusBarWhite">
+    <style name="AppTheme.StatusBarWhite">
         <item name="android:statusBarColor">@color/white</item>
         <!-- <item name="fontFamily">@font/app_font</item>-->
         <item name="android:textViewStyle">@style/TextViewStyle</item>
@@ -53,4 +54,5 @@
         <item name="android:colorControlActivated">@color/blue_bg</item>
         <item name="android:colorControlNormal">@color/color_grey_selectornav</item>
     </style>
+
 </resources>

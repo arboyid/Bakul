@@ -1,4 +1,4 @@
 package com.arboy.bakul.activity
 
-class TransasctionActivity {
+class TransactionActivity {
 }

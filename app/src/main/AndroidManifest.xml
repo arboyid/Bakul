@@ -12,19 +12,44 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Bakul"
         tools:targetApi="31">
+        <activity android:name=".activity.AddWalletActivity"
+            android:theme="@style/AppTheme.StatusBarWhite"/>
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".activity.SuccesTransactionActivity"
+            android:theme="@style/AppTheme.StatusBarCustom" />
+        <activity
+            android:name=".activity.ReportActivity"
+            android:theme="@style/AppTheme.StatusBarWhite" />
+        <activity
+            android:name=".activity.TransactionActivity"
+            android:theme="@style/AppTheme.StatusBarWhite" />
+        <activity
+            android:name=".activity.WalletActivity"
+            android:theme="@style/AppTheme.StatusBarWhite" />
+        <activity
+            android:name=".activity.QrCodeActivity"
+            android:theme="@style/AppTheme.StatusBarCustom" />
+        <activity
+            android:name=".activity.SuccesRegisterActivity"
+            android:theme="@style/AppTheme.StatusBarWhite" />
+        <activity
+            android:name=".activity.SignInActivity"
+            android:theme="@style/AppTheme.StatusBarWhite" />
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:theme="@style/AppTheme.StatusBarWhite" />
+        <activity
+            android:name=".activity.SplashActivity"
+            android:theme="@style/AppTheme.StatusBarCustom">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
         </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:theme="@style/AppTheme.StatusBarCustom" />
     </application>
 
 </manifest>

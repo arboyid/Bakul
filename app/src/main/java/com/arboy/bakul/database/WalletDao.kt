@@ -1,15 +1,19 @@
 package com.arboy.bakul.database
 
+<<<<<<< HEAD
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
 
+=======
+>>>>>>> ab7fda93ff1344ba8f6a2db5984fe4f79f864976
 @Dao
 interface WalletDao {
 
     @Insert
+<<<<<<< HEAD
     suspend fun saveWallet(wallet: Wallet)
 
     @Delete
@@ -35,4 +39,8 @@ interface WalletDao {
 
     @Query("UPDATE wallet_tb SET status=:status WHERE id = :id")
     fun updateWalletStatus(status: Int, id: Long)
+=======
+    suspend fun saveWallet
+
+>>>>>>> ab7fda93ff1344ba8f6a2db5984fe4f79f864976
 }

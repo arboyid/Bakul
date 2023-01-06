@@ -1,6 +1,7 @@
 package com.arboy.bakul.repository
 
 import android.app.Application
+<<<<<<< HEAD
 import androidx.lifecycle.LiveData
 import com.arboy.bakul.database.AtomDatabase
 import com.arboy.bakul.database.Transaction
@@ -80,5 +81,12 @@ class WalletRepository(application: Application) {
             }
         }
     }
+=======
+import com.arboy.bakul.database.WalletDao
+
+class WalletRepository (application: Application) {
+
+    private val walletDao: WalletDao
+>>>>>>> ab7fda93ff1344ba8f6a2db5984fe4f79f864976
 
 }

@@ -1,5 +1,6 @@
 package com.arboy.bakul.activity
 
+<<<<<<< HEAD:app/src/main/java/com/arboy/bakul/activity/TransasctionActivity.kt
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
@@ -162,4 +163,7 @@ class TransactionActivity : BaseActivity() {
         return true
     }
 
+=======
+class TransactionActivity {
+>>>>>>> ab7fda93ff1344ba8f6a2db5984fe4f79f864976:app/src/main/java/com/arboy/bakul/activity/TransactionActivity.kt
 }

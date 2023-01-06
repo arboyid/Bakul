@@ -9,11 +9,20 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+<<<<<<< HEAD
         android:theme="@style/AppTheme">
         <activity android:name=".activity.AddWalletActivity"
             android:theme="@style/AppTheme.StatusBarWhite"/>
         <activity
             android:name=".activity.SuccessTransactionActivity"
+=======
+        android:theme="@style/Theme.Bakul"
+        tools:targetApi="31">
+        <activity android:name=".activity.AddWalletActivity"
+            android:theme="@style/AppTheme.StatusBarWhite"/>
+        <activity
+            android:name=".activity.SuccesTransactionActivity"
+>>>>>>> ab7fda93ff1344ba8f6a2db5984fe4f79f864976
             android:theme="@style/AppTheme.StatusBarCustom" />
         <activity
             android:name=".activity.ReportActivity"
@@ -28,7 +37,11 @@
             android:name=".activity.QrCodeActivity"
             android:theme="@style/AppTheme.StatusBarCustom" />
         <activity
+<<<<<<< HEAD
             android:name=".activity.SuccessRegisterActivity"
+=======
+            android:name=".activity.SuccesRegisterActivity"
+>>>>>>> ab7fda93ff1344ba8f6a2db5984fe4f79f864976
             android:theme="@style/AppTheme.StatusBarWhite" />
         <activity
             android:name=".activity.SignInActivity"

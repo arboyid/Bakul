@@ -62,7 +62,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="35dp"
-                android:text="Sald Sekarang"
+                android:text="Saldo Sekarang"
                 android:textColor="@color/white_blur"
                 android:textSize="16sp"
                 android:textStyle="bold"
@@ -74,10 +74,10 @@
            android:id="@+id/ivQrCode"
            android:layout_width="33dp"
            android:layout_height="33dp"
-           android:layout_marginEnd="50dp"
-           android:tint="@color/white"
+           android:layout_marginEnd="44dp"
            app:layout_constraintEnd_toEndOf="parent"
            app:layout_constraintTop_toBottomOf="@id/tvSaldoNow"
+           app:tint="@color/white"
            tools:ignore="ContentDescription" />
 
    </androidx.constraintlayout.widget.ConstraintLayout>

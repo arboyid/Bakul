@@ -9,10 +9,10 @@ import com.arboy.bakul.pojo.User
 import com.arboy.bakul.util.AppConstant
 import com.arboy.bakul.util.PreferenceUtil
 import com.arboy.bakul.util.SessionManager
-//import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_succes_register.*
 import java.text.DecimalFormat
 import java.text.NumberFormat
-
 
 class MainActivity : BaseActivity(), View.OnClickListener {
 
@@ -96,3 +96,4 @@ class MainActivity : BaseActivity(), View.OnClickListener {
             }
         }
     }
+}

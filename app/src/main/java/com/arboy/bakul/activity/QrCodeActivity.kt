@@ -23,7 +23,7 @@ class QrCodeActivity : BaseActivity() {
         // set bacgkround
         ivAvatar2.setImageDrawable(getBackground(R.drawable.avatar))
         ivBarcode.setImageDrawable(getBackground(R.drawable.ic_barcode))
-        ivQrcode.setImageDrawable(getBackground(R.drawable.qrcode2))
+        ivQrCode.setImageDrawable(getBackground(R.drawable.qrcode2))
         ivLogo.setImageDrawable(getBackground(R.drawable.icon_blue))
         ivIde.setImageDrawable(getBackground(R.drawable.idea))
 

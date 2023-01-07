@@ -1,6 +1,5 @@
 package com.arboy.bakul.activity
 
-<<<<<<< HEAD
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
@@ -18,7 +17,7 @@ class SplashActivity : BaseActivity() {
 
         // set status bar color blue
         transparentStatusBar()
-        imgLogo.setImageDrawable(getBackground(R.drawable.atomic_logo))
+        imgLogo.setImageDrawable(getBackground(R.drawable.ic_bakul))
 
         // delay for to next activity
         Handler().postDelayed({ toActivity() }, AppConstant.LENGTH_SPLASH)
@@ -49,14 +48,5 @@ class SplashActivity : BaseActivity() {
 
 
     }
-=======
-import android.os.Bundle
-import android.os.Handler
-import com.arboy.bakul.R
-import com.arboy.bakul.util.PreferenceUtil
-
-class SplashActivity : BaseActivity() {
-
->>>>>>> ab7fda93ff1344ba8f6a2db5984fe4f79f864976
 
 }

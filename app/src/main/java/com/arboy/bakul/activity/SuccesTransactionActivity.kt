@@ -3,7 +3,7 @@ package com.arboy.bakul.activity
 import android.annotation.SuppressLint
 import android.os.Bundle
 import com.arboy.bakul.R
-import kotlinx.android.synthetic.main.activity_success_transaction.*
+import kotlinx.android.synthetic.main.activity_succes_transaction.*
 import java.text.DecimalFormat
 import java.text.NumberFormat
 import java.text.SimpleDateFormat
@@ -13,7 +13,7 @@ class SuccessTransactionActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_success_transaction)
+        setContentView(R.layout.activity_succes_transaction)
 
         transparentStatusBar()
         initView()

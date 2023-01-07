@@ -48,16 +48,15 @@ class WalletActivity : BaseActivity(), WalletAdapter.walletEvents {
         }
     }
 
-    /*
-    * listener for detele walled
-    * */
+//listener for detele walled
+
     override fun onMenuClicked(wallet: Wallet) {
         walletViewModel.deleteTodo(wallet)
     }
 
-    /*
-    * listener for udpate wallet status active or not
-    * */
+//listener for udpate wallet status active or not
+
+
     override fun onSwitchClicked(wallet: Wallet, ischeck: Boolean) {
         if (ischeck){
             walletViewModel.udpateWalletStatus(1, wallet)

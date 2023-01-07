@@ -1,7 +1,7 @@
 package com.arboy.bakul.activity
 
 import android.os.Bundle
-import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.ViewModelProviders
 import com.arboy.bakul.R
 import com.arboy.bakul.database.Wallet
 import com.arboy.bakul.util.PreferenceUtil
@@ -19,7 +19,7 @@ class AddWalletActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add_wallet)
 
-        walletViewModel = ViewModelProvider.of(this).get(WalletViewModel::class.java)
+        walletViewModel = ViewModelProviders.of(this).get(WalletViewModel::class.java)
 
         // set white status bar
         transparentStatusBar()

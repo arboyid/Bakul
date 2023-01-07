@@ -24,7 +24,7 @@ class QrCodeActivity : BaseActivity() {
         ivAvatar2.setImageDrawable(getBackground(R.drawable.avatar))
         ivBarcode.setImageDrawable(getBackground(R.drawable.ic_barcode))
         ivQrcode.setImageDrawable(getBackground(R.drawable.qrcode2))
-        ivLogo.setImageDrawable(getBackground(R.drawable.icon_blue))
+        ivLogo.setImageDrawable(getBackground(R.drawable.arboyblack_logo))
         ivIde.setImageDrawable(getBackground(R.drawable.idea))
 
         // auto number formatting

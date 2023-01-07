@@ -10,7 +10,6 @@ import com.arboy.bakul.util.AppConstant
 import com.arboy.bakul.util.PreferenceUtil
 import com.arboy.bakul.util.SessionManager
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.activity_succes_register.*
 import java.text.DecimalFormat
 import java.text.NumberFormat
 
@@ -52,7 +51,7 @@ class MainActivity : BaseActivity(), View.OnClickListener {
     override fun onResume() {
         super.onResume()
 
-        // set default saldo 2.500.000
+        // set default saldo 1.500.000
         val saldoValue: Int? = PreferenceUtil.getPref(this)?.getInt(PreferenceUtil.SALDO, 0)
         if (saldoValue == 0){
             PreferenceUtil.getEditor(application)?.putInt(PreferenceUtil.SALDO, AppConstant.SALDO_MASUK)?.commit()
@@ -74,7 +73,7 @@ class MainActivity : BaseActivity(), View.OnClickListener {
         }
 
         // set format number for current saldo
-        tvTitleSuccess.text = "Rp. " +  formatter.format(saldoValue)
+        tvTitleSucces.text = "Rp. " +  formatter.format(saldoValue)
     }
 
     override fun onClick(p0: View?) {

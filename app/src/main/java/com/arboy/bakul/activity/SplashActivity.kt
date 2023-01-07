@@ -16,8 +16,8 @@ class SplashActivity : BaseActivity() {
         setContentView(R.layout.activity_splash)
 
         // set status bar color blue
-        transparentStatusBar()
-        imgLogo.setImageDrawable(getBackground(R.drawable.ic_bakul))
+//        transparentStatusBar()
+//        imgLogo.setImageDrawable(getBackground(R.drawable.ic_bakul))
 
         // delay for to next activity
         Handler().postDelayed({ toActivity() }, AppConstant.LENGTH_SPLASH)

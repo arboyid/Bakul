@@ -11,6 +11,4 @@
             <corners android:radius="7dp"/>
         </shape>
     </item>
-    <item
-        android:drawable="@drawable/ic_check" />
 </layer-list>

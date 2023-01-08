@@ -8,10 +8,10 @@ https://drive.google.com/file/d/1p85_e-u0tZ67VgcuRErsZD44jOiJGwpd/view?usp=share
 #Tools :
 
 
-Kotlin
-Kotlin Coroutines
-MVVM ( Model, View, View Model )
-Room Database
+Kotlin,
+Kotlin Coroutines,
+MVVM ( Model, View, View Model ),
+Room Database,
 Gson
 
 #Screens UI :

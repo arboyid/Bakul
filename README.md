@@ -1,10 +1,13 @@
-<H1>Bakul</1> is an application that can do simple financial records, which can record all incoming and outgoing money. Then the owner can see all transaction history in the report that has been provided.
+Bakul is an application that can do simple financial records, which can record all incoming and outgoing money. Then the owner can see all transaction history in the report that has been provided.
 
 #Files APK
+
 https://drive.google.com/file/d/1p85_e-u0tZ67VgcuRErsZD44jOiJGwpd/view?usp=share_link
 
 
 #Tools :
+
+
 Kotlin
 Kotlin Coroutines
 MVVM ( Model, View, View Model )
@@ -12,6 +15,8 @@ Room Database
 Gson
 
 #Screens UI :
+
+
 ![Screenshot_20230108-125147](https://user-images.githubusercontent.com/74137303/211182982-84e03689-7891-4f59-867e-d791e3915e78.png)
 
 ![Screenshot_20230108-125212](https://user-images.githubusercontent.com/74137303/211182995-5918911f-6d16-419a-a291-3c57c39698e3.png)

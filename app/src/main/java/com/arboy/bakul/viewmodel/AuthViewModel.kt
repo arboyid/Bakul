@@ -28,7 +28,7 @@ class AuthViewModel(application: Application) : AndroidViewModel(application) {
         }else if (!isValidPassword()){
             toast("Password Invalid...")
         }else if (!isCheck){
-            toast("Silahkan ceklis kotak agreement dulu...")
+            toast("Silahkan ceklis kotak EULA terlebih dahulu mate !...")
         }else{
             saveUser(onSuccessListener)
         }

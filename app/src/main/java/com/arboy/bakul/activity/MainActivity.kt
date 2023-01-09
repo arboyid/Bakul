@@ -51,7 +51,7 @@ class MainActivity : BaseActivity(), View.OnClickListener {
     override fun onResume() {
         super.onResume()
 
-        // set default saldo 1.500.000
+        // set default saldo 2.500.000
         val saldoValue: Int? = PreferenceUtil.getPref(this)?.getInt(PreferenceUtil.SALDO, 0)
         if (saldoValue == 0){
             PreferenceUtil.getEditor(application)?.putInt(PreferenceUtil.SALDO, AppConstant.SALDO_MASUK)?.commit()
@@ -65,15 +65,18 @@ class MainActivity : BaseActivity(), View.OnClickListener {
         tvSumIncome.text = "Rp. " + formatter.format(uangMasuk)
         tvSumOutcome.text = "Rp. " + formatter.format(uangKeluar)
 
+
+        // set format number for current saldo
+        tvTitleSucces.text = "Rp. " +  formatter.format(saldoValue)
+
+
         // set description with name ser login
         if (SessionManager.getProfile(application) == null) return
         val own: User? = SessionManager.getProfile(application)
         if (own != null) {
-            tvDescPengeluaran.text = "Hai " + own.fullname + " " + getString(R.string.str_desc_main)
+            tvDescPengeluaran.text = " Hallo, " + own.fullname + " " + getString(R.string.str_desc_main)
         }
 
-        // set format number for current saldo
-        tvTitleSucces.text = "Rp. " +  formatter.format(saldoValue)
     }
 
     override fun onClick(p0: View?) {

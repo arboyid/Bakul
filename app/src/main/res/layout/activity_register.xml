@@ -59,7 +59,6 @@
             android:hint="Nama Lengkap"
             android:text="@={authViewModel.fullname}"
             android:paddingStart="35dp"
-            android:digits="a bcdefghijklmnopqrstuvwxyz"
             android:textColorHint="@color/color_black_text"
             android:background="@drawable/button_state_bg"
             tools:ignore="Autofill,HardcodedText,RtlSymmetry,TextFields" />

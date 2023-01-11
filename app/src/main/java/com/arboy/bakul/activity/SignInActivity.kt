@@ -62,7 +62,7 @@ class SignInActivity : BaseActivity(), View.OnClickListener {
     override fun onClick(p0: View?) {
         when (p0) {
             tvForgotPassword -> {
-                showToast("Coming Soon Features...")
+                showToast("Fitur sedang dalam pengembangan")
             }
             btnSignIn -> {
                 userViewModel.loginClick(listener)

@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Bakul</string>
-    <string name="pleaseEnterTitle">Input nama dompet dulu</string>
+    <string name="pleaseEnterTitle">Input nama dompet anda terlebih dahulu</string>
     <string name="pleaseEnterDesc">Input deskripsi dulu</string>
     <string name="pleaseEnterSaldo">Input saldo dulu</string>
     <string name="str_kurang">Saldo Dompet anda tidak cukup</string>
-    <string name="str_desc_main">Pengeluaran anda 60% untuk makan diluar. Silahkan lihat detail</string>
+    <string name="str_desc_main">Silahkan lihat detail untuk melihat pengeluaran anda. </string>
 </resources>

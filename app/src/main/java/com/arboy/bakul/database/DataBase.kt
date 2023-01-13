@@ -18,7 +18,7 @@ abstract class AtomDatabase : RoomDatabase() {
                 synchronized(AtomDatabase::class) {
                     INSTANCE = Room.databaseBuilder(context,
                         AtomDatabase::class.java,
-                        "atom_db")
+                        "bakul_db")
                         .fallbackToDestructiveMigration()
                         .build()
                 }

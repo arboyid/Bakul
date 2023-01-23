@@ -1,6 +1,8 @@
 # Preview
 Bakul is an application that can do simple financial records, which can record all incoming and outgoing money. Then the owner can see all transaction history in the report that has been provided.
 
+![image](https://user-images.githubusercontent.com/74137303/214002016-8ac63101-b0fd-4d91-8767-02baff154457.png)
+
 
 
 

@@ -11,16 +11,3 @@ https://drive.google.com/file/d/1p85_e-u0tZ67VgcuRErsZD44jOiJGwpd/view?usp=share
 
 # Prototype
 https://www.figma.com/file/YpLWvlrG9mjQRzKfp3osRX/220104-Bakul?node-id=0%3A1&t=AgkBDx0Jur7rYFCW-1
-
-
-
-# Tools 
--> Kotlin,
-
--> Kotlin Coroutines,
-
--> MVVM ( Model, View, View Model ),
-
--> Room Database,
-
--> Gson

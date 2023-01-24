@@ -13,7 +13,7 @@ https://drive.google.com/file/d/1-odp3bQhKlIwurMzlLqqIJRoC7jgYV3X/view?usp=share
 https://www.figma.com/file/YpLWvlrG9mjQRzKfp3osRX/220104-Bakul?node-id=0%3A1&t=AgkBDx0Jur7rYFCW-1
 
 # FlowChart
-![image](https://user-images.githubusercontent.com/74137303/214078457-1e630546-0f8d-4e9a-a31f-44694bbc41a1.png)
+![image](https://user-images.githubusercontent.com/74137303/214334661-75bcdcba-d2bf-491c-bea6-82eb223749c0.png)
 
 
 https://app.diagrams.net/#G1G5rvFb24kF6Uwm8-VdB2hb-a_uFUVmeX

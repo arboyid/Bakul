@@ -7,7 +7,7 @@ Bakul is an application that can do simple financial records, which can record a
 
 
 # Files APK
-https://drive.google.com/file/d/1-odp3bQhKlIwurMzlLqqIJRoC7jgYV3X/view?usp=share_link
+https://drive.google.com/file/d/1gmUhq8ZxKM0OMl_HMNbZPLwdt1zffnVz/view?usp=sharing
 
 # Prototype
 https://www.figma.com/file/YpLWvlrG9mjQRzKfp3osRX/220104-Bakul?node-id=0%3A1&t=AgkBDx0Jur7rYFCW-1
